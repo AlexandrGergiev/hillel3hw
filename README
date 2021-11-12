@@ -1,0 +1,26 @@
+To get all users data: VIEW
+No blueprint
+To create new user: POST
+blueprint:
+{
+    "login": "qwerty",
+    "password": "1234"
+}
+To delete user: DELETE
+blueprint:
+{
+    "login": "qwerty",
+    "password": "1234"
+}
+To change password: PATCH
+blueprint:
+{
+    "login": "qwerty",
+    "password(new)": "1235"
+}
+To Check password and login: PUT
+blueprint:
+{
+    "login": "qwerty",
+    "password": "1234"
+}
